@@ -1,5 +1,5 @@
 function ThreeWindow(camera) {
-    this.renderer = new THREE.WebGLRenderer();
+    this.renderer = new THREE.WebGLRenderer({antialias: true});
     this.scene = new THREE.Scene();
     this.camera = camera;
     
